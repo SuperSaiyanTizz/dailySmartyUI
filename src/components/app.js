@@ -7,7 +7,7 @@ export default class App extends Component {
         <div>
           logo
         </div>
-        <h2>React Redux Router</h2>
+        
       </div>
     );
   }
