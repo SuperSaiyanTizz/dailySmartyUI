@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SearchBar extends Component {
+class RecentPosts extends Component {
     render() {
         return (
             <div className="recent-posts">
@@ -18,4 +18,4 @@ class SearchBar extends Component {
     }
 }
 
-export default SearchBar;
+export default RecentPosts;

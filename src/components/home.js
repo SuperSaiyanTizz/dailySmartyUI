@@ -6,12 +6,13 @@ import RecentPosts from './recentPost';
 export default class Home extends Component {
   render() {
     return (
-      <div className='app'>
+      <div className='home'>
         <div>
           <Logo/>
           <SearchBar/>
           <RecentPosts/>
         </div>
+        ssss
         
       </div>
     );
