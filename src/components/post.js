@@ -19,6 +19,5 @@ class Post extends Component {
                     {this.renderTopics()}
                 </div>
             </li>
-            
-        )}
-     }
+      )}
+    }
