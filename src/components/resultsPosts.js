@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
+import Post from './post';
 
 class ResultsPosts extends Component {
     
     renderPosts() {
-       const posts = this.props.posts.map((post, index) => {
+       const posts = this.props.posts.map((posts, index) => {
            return <Post type="result" key={index} {...post} />
        })
         return posts;
